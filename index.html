@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -28,7 +29,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav base sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -60,9 +61,9 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="buttons.html">Manual Mutu</a>
-                        <a class="collapse-item" href="cards.html">SOP</a>
-                        <a class="collapse-item" href="cards.html">Instruksi Kerja</a>
+                        <a class="collapse-item" href="penjaminanmutu/manualmutu/ManualMutu.html">Manual Mutu</a>
+                        <a class="collapse-item" href="penjaminanmutu/SOP/Sop.html">SOP</a>
+                        <a class="collapse-item" href="penjaminanmutu/InstruksiKerja/InstruksiKerja.html">Instruksi Kerja</a>
                     </div>
                 </div>
             </li>
@@ -77,8 +78,8 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="utilities-color.html">Penelitian</a>
-                        <a class="collapse-item" href="utilities-border.html">Pengabdian</a>
+                        <a class="collapse-item" href="jurnal/penelitian/Penelitian.html">Penelitian</a>
+                        <a class="collapse-item" href="jurnal/pengabdian/Pengabdian.html">Pengabdian</a>
                     </div>
                 </div>
             </li>
@@ -87,16 +88,24 @@
 
             <!-- Nav Item - Dosen -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="manajemen dosen/ManajemenDosen.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Manajemen Dosen</span></a>
             </li>
 
              <!-- Nav Item - User -->
              <li class="nav-item">
-                <a class="nav-link" href="manajemen pengguna/ManajemenPengguna.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Manajemen Pengguna</span></a>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Manajemen Pengguna</span>
+                </a>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="manajemen pengguna/Pengguna.html">Pengguna</a>
+                        <a class="collapse-item" href="role/role.html">Role</a>
+                    </div>
+                </div>
             </li>
 
            
