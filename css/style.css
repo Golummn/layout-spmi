@@ -10,3 +10,14 @@
 .green:hover{
     background-color: rgba(30, 122, 30, 0.979);
 }
+IconTitle{
+    margin: 2rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	color: #949191;
+	background-color: #f1f1f1;
+}
