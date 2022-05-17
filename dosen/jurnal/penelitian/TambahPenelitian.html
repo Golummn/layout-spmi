@@ -12,14 +12,14 @@
     <title>E-SPMI</title>
 
     <!-- Custom fonts for this template-->
-    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        href="../https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link href="../../../css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/style.css">
 
 </head>
 
@@ -83,33 +83,6 @@
                     </div>
                 </div>
             </li>
-
-
-
-            <!-- Nav Item - Dosen -->
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Manajemen Dosen</span></a>
-            </li>
-
-             <!-- Nav Item - User -->
-             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="true" aria-controls="collapseThree">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Manajemen Pengguna</span>
-                </a>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="Pengguna.html">Pengguna</a>
-                        <a class="collapse-item" href="../../role/role.html">Role</a>
-                    </div>
-                </div>
-            </li>
-
-           
-
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -165,7 +138,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                                 <img class="img-profile rounded-circle"
-                                    src="../../img/undraw_profile.svg">
+                                    src="../../../img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -198,36 +171,67 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <!-- Content Row -->
-                                        <table class="table table-hover ">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col">No</th>
-                                                <th scope="col">judul</th>
-                                                <th scope="col">Link Jurnal</th>
-                                                <th scope="col">Dosen</th>
-                                                <th scope="col">Tahun Ajaran</th>
-                                                <th scope="col">Kategori</th>
-                                                <th scope="col">Status</th>
-                                                <th scope="col">Aksi</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                                <td>
-                                                    <a href="InfoInstruksiKerja.html" class="btn green text-white">Konfirmasi</a>
-                                                    <button class="btn btn-danger">Tolak</button>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
+                                    <form>
+                                        <div class="form-group">
+                                          <label for="judul" class="font-weight-bolder">Judul</label>
+                                          <input type="text" class="form-control" id="judul" placeholder="Masukkan judul" name="judul">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="linkJurnal" class="font-weight-bolder">Link Jurnal</label>
+                                            <input type="text" class="form-control" id="linkJurnal" placeholder="masukkan link jurnal" name="linkJurnal">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tahun" class="font-weight-bolder">Tahun</label>
+                                            <select class="form-control" id="tahun" name="tahun">
+                                              <option>2021</option>
+                                              <option>2022</option>
+                                              <option>2023</option>
+                                              <option>2024</option>
+                                              <option>2025</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="bulan" class="font-weight-bolder">Bulan</label>
+                                            <select class="form-control" id="bulan" name="bulan">
+                                              <option>Januari</option>
+                                              <option>Februari</option>
+                                              <option>Maret</option>
+                                              <option>April</option>
+                                              <option>Mei</option>
+                                              <option>Juni</option>
+                                              <option>Juli</option>
+                                              <option>Agustus</option>
+                                              <option>Sepetember</option>
+                                              <option>Oktober</option>
+                                              <option>November</option>
+                                              <option>Desember</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="media" class="font-weight-bolder">Media</label>
+                                            <input type="text" class="form-control" id="media" placeholder="masukkan link jurnal" name="media">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="issn" class="font-weight-bolder">ISSN</label>
+                                            <input type="text" class="form-control" id="issn" placeholder="masukkan link jurnal" name="issn">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="kriteria" class="font-weight-bolder">Kriteria</label>
+                                            <select class="form-control" id="kriteria" name="kriteria">
+                                              <option>Internasional</option>
+                                              <option>Nasional</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="kategori" class="font-weight-bolder">Kategori</label>
+                                            <select class="form-control" id="kategori" name="kategori">
+                                              <option>Penelitian</option>
+                                              <option>Pengabdian</option>
+                                            </select>
+                                        </div>
+                                        <a href="Penelitian.html" class="btn btn-danger">Batal</a>
+                                        <button class="btn green text-white">Simpan</button>
+                                      </form>
                                     </div>
                               </div>
                         </div>
@@ -275,21 +279,21 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="../../vendor/jquery/jquery.min.js"></script>
-    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../../../vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="../../js/sb-admin-2.min.js"></script>
+    <script src="../../../js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="../../vendor/chart.js/Chart.min.js"></script>
+    <script src="../../../vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="../../js/demo/chart-area-demo.js"></script>
-    <script src="../../js/demo/chart-pie-demo.js"></script>
+    <script src="../../../js/demo/chart-area-demo.js"></script>
+    <script src="../../../js/demo/chart-pie-demo.js"></script>
 
 </body>
 
