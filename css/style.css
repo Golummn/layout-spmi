@@ -21,3 +21,13 @@ IconTitle{
 	color: #949191;
 	background-color: #f1f1f1;
 }
+
+.img-spmi{
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+.bg-normal{
+	background-color: #f1f1f1;
+}
