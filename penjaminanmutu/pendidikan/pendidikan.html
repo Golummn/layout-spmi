@@ -74,11 +74,6 @@
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Pengabdian</span></a>
             </li>
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Manajemen
-            </div>
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="../../manajemen/jurnalilmiah/JurnalIlmiah.html">
@@ -86,8 +81,11 @@
                     <span>Jurnal Ilmiah</span></a>
             </li>
 
-
-
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Manajemen
+            </div>
+            
             <!-- Nav Item - Dosen -->
             <li class="nav-item">
                 <a class="nav-link" href="../../manajemen/manajemendosen/ManajemenDosen.html">
@@ -161,18 +159,59 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                 <!-- Begin Page Content -->
-                 <div class="container-fluid">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Daftar Item Penjaminan Mutu</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Daftar Penjaminan Mutu Pendidikan</h1>
                     </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <a href="TambahPendidikan.html" class="btn green text-white mb-4">Tambah</a>
+                                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                        <h2 class="h5 mb-0 text-gray-800">Item Penjaminan Mutu Pendidikan</h2>
+                                    </div>
+                                    <a href="TambahItemPendidikan.html" class="btn btn-sm green text-white mb-4">Tambah</a>
+                                    <!-- Content Row -->
+                                        <table class="table table-hover ">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">No</th>
+                                                <th scope="col">Nama</th>
+                                                <th scope="col">Deskripsi</th>
+                                                <th scope="col">Aksi</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Sop</td>
+                                                <td>Lorem ipsum</td>
+                                                <td>
+                                                    <a href="DetailItemPendidikan.html" class="btn btn-sm btn-info">Detail</a>
+                                                    <a href="UbahItemPendidikan.html" class="btn btn-sm btn-primary">Ubah</a>
+                                                    <button class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                    <!-- Page Heading -->
+                    
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                        <h2 class="h5 mb-0 text-gray-800">Dokumen Penjaminan Mutu Pendidikan</h2>
+                                    </div>  
+                                    <a href="TambahPendidikan.html" class="btn btn-sm green text-white mb-4">Tambah</a>
                                     <!-- Content Row -->
                                         <table class="table table-hover ">
                                             <thead>
@@ -180,6 +219,7 @@
                                                 <th scope="col">No</th>
                                                 <th scope="col">Subjek</th>
                                                 <th scope="col">Tahun</th>
+                                                <th scope="col">Jenis Item</th>
                                                 <th scope="col">File</th>
                                                 <th scope="col">Aksi</th>
                                             </tr>
@@ -190,10 +230,11 @@
                                                 <td>Mark</td>
                                                 <td>2022</td>
                                                 <td>@pdf</td>
+                                                <td>@pdf</td>
                                                 <td>
-                                                    <a href="DetailPendidikan.html" class="btn btn-info">Detail</a>
-                                                    <a href="UbahPendidikan.html" class="btn btn-primary">Ubah</a>
-                                                    <button class="btn btn-danger">Hapus</button>
+                                                    <a href="DetailPendidikan.html" class="btn btn-sm btn-info">Detail</a>
+                                                    <a href="UbahPendidikan.html" class="btn btn-sm btn-primary">Ubah</a>
+                                                    <button class="btn btn-sm btn-danger">Hapus</button>
                                                 </td>
                                               </tr>
                                             </tbody>

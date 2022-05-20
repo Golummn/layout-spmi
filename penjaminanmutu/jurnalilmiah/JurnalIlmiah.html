@@ -14,7 +14,7 @@
     <!-- Custom fonts for this template-->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        href="../../https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
@@ -28,8 +28,8 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-         <!-- Sidebar -->
-         <ul class="navbar-nav base sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar -->
+        <ul class="navbar-nav base sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../../index.html">
@@ -76,7 +76,7 @@
             </li>
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="../../manajemen/jurnalilmiah/JurnalIlmiah.html">
+                <a class="nav-link" href="JurnalIlmiah.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Jurnal Ilmiah</span></a>
             </li>
@@ -142,7 +142,7 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="Profil.html">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profil
                                 </a>
@@ -159,59 +159,67 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                 <!-- Begin Page Content -->
+                 <div class="container-fluid">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Detail Dosen</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Daftar Jurnal Ilmiah</h1>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-body">
+                                    <!-- <a href="TambahPendidikan.html" class="btn btn-sm green text-white mb-4">Tambah</a> -->
                                     <!-- Content Row -->
-                                    <form>
-                                        <fieldset disabled>
-                                          <div class="form-group">
-                                            <label for="nidn" class="font-weight-bold">Nidn</label>
-                                            <input type="text" id="nidn" class="form-control" placeholder="nidn" name="nidn">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="alamat" class="font-weight-bold">Alamat</label>
-                                            <input type="text" id="alamat" class="form-control" placeholder="alamat" name="alamat">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="jenisKelamin" class="font-weight-bold">Jenis Kelamin</label>
-                                            <input type="text" id="jenisKelamin" class="form-control" placeholder="Laki-laki" name="jenisKelamin">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="nomerHp" class="font-weight-bold">Nomer Hp</label>
-                                            <input type="text" id="nomerHp" class="form-control" placeholder="nomer hp" name="nomerHp">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="tanggalLahir" class="font-weight-bold">Tanggal Lahir</label>
-                                            <input type="text" id="tanggalLahir" class="form-control" placeholder="tanggalLahir" name="tanggalLahir">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="jabatan" class="font-weight-bold">Jabatan</label>
-                                            <input type="text" id="jabatan" class="form-control" placeholder="jabatan" name="jabatan">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="prodi" class="font-weight-bold">Prodi</label>
-                                            <input type="text" id="prodi" class="form-control" placeholder="prodi" name="prodi">
-                                          </div>
-                                        </fieldset>
-                                    </form>
-                                    <a href="ManajemenDosen.html" class="btn btn-sm btn-danger">Kembali</a>
+                                        <table class="table table-hover ">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">No</th>
+                                                <th scope="col">Judul</th>
+                                                <th scope="col">Tahun</th>
+                                                <th scope="col">Bulan</th>
+                                                <th scope="col">Media</th>
+                                                <th scope="col">Issn</th>
+                                                <th scope="col">Sebagai</th>
+                                                <th scope="col">Indeks</th>
+                                                <th scope="col">Link</th>
+                                                <th scope="col">Aksi</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>2022</td>
+                                                <td>@pdf</td>
+                                                <td>Mark</td>
+                                                <td>2022</td>
+                                                <td>@pdf</td>
+                                                <td>@pdf</td>
+                                                <td>@pdf</td>
+                                                <td>
+                                                    <a href="DetailPendidikan.html" class="btn btn-sm green text-white">Konfirmasi</a>
+                                                    <a href="UbahPendidikan.html" class="btn btn-sm btn-danger">Tolak</a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
                                 </div>
+                              </div>
                         </div>
-                    </div>    
+                    </div>
+                   
+
+                  
+               
                 </div>
                 <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->
+
+
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
@@ -227,6 +235,7 @@
 
     </div>
     <!-- End of Page Wrapper -->
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="../../vendor/jquery/jquery.min.js"></script>

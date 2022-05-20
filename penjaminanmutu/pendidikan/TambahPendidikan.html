@@ -65,44 +65,42 @@
                     <span>Pendidikan</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../penelitian/penelitian.html">
+                <a class="nav-link" href="../penelitian/Penelitian.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Penelitian</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../pengabdian/pengabdian.html">
+                <a class="nav-link" href="../pengabdian/Pengabdian.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Pengabdian</span></a>
+            </li>
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="../../manajemen/jurnalilmiah/JurnalIlmiah.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Jurnal Ilmiah</span></a>
             </li>
 
             <!-- Heading -->
             <div class="sidebar-heading">
                 Manajemen
             </div>
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link" href="../../jurnal/jurnal.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Jurnal Ilmiah</span></a>
-            </li>
-
-
-
+            
             <!-- Nav Item - Dosen -->
             <li class="nav-item">
-                <a class="nav-link" href="manajemendosen/ManajemenDosen.html">
+                <a class="nav-link" href="../../manajemen/manajemendosen/ManajemenDosen.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Manajemen Dosen</span></a>
             </li>
 
              <!-- Manajemen  -->
              <li class="nav-item">
-                <a class="nav-link" href="manajemenpengguna/Pengguna.html">
+                <a class="nav-link" href="../../manajemen/manajemenpengguna/Pengguna.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Manajemen Pengguna</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="role/role.html">
+                <a class="nav-link" href="../../manajemen/role/role.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Manajemen Role</span></a>
             </li>
@@ -167,7 +165,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tambah Item Penjaminan Mutu</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Tambah Dokumen Penjaminan Mutu</h1>
                     </div>
                     <div class="row mb-5">
                         <div class="col-12">
@@ -188,11 +186,19 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
+                                            <label for="jenisItem" class="font-weight-bolder">Jenis Item</label>
+                                            <select class="form-control" id="jenisItem" name="jenisItem">
+                                              <option>Manual Mutu</option>
+                                              <option>SOP</option>
+                                              <option>Instruksi Kerja</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
                                             <label for="file" class="font-weight-bolder">File</label>
                                             <input type="file" class="form-control" id="file" name="file">
                                         </div>
-                                        <a href="pendidikan.html" class="btn btn-danger">Batal</a>
-                                        <button class="btn green text-white">Simpan</button>
+                                        <a href="pendidikan.html" class="btn btn-danger btn-sm">Batal</a>
+                                        <button class="btn green text-white btn-sm">Simpan</button>
                                       </form>
                                 </div>
                               </div>
